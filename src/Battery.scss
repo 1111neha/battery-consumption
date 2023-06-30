@@ -1,0 +1,55 @@
+.battery-container {
+  padding: 20px;
+  background-image: linear-gradient(to right, #3a5aa9, hsl(210, 35%, 85%));
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.title2 {
+  text-align: center;
+  color: white;
+}
+.app-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.app-item {
+  background-image: linear-gradient(to right, #3a5aa9, hsl(210, 35%, 85%));
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  border: 1px solid;
+}
+
+.app-icon {
+  margin-right: 15px;
+}
+
+.app-details {
+  flex-grow: 1;
+}
+
+.app-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.app-battery {
+  color: white;
+  margin-top: 5px;
+}
+
+.terminate-button {
+  background-color: #d76857;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
