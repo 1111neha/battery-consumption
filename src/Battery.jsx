@@ -123,7 +123,7 @@ const Battery = () => {
             </div>
           ))
         ) : (
-          <p>No apps left to terminate.</p>
+          <p className="title2">No apps left to terminate.</p>
         )}
       </div>
 
